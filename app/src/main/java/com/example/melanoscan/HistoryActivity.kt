@@ -91,7 +91,7 @@ class HistoryActivity : AppCompatActivity() {
             })
 
             addView(TextView(this@HistoryActivity).apply {
-                text = "처음 관찰하는 병변이라면 이름을 등록하고 첫 측정을 진행하세요."
+                text = "처음 관찰하는 병변이라면 이름을 등록하고 측정을 진행하세요. 병변은 3개월 이상 지속 관찰해야 합니다."
                 textSize = 13f
                 setTextColor(subText)
                 setPadding(0, dp(8), 0, dp(14))

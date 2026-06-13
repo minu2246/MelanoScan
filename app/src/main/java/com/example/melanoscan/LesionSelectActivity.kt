@@ -84,7 +84,7 @@ class LesionSelectActivity : AppCompatActivity() {
 
             addView(TextView(this@LesionSelectActivity).apply {
                 text = if (isFromAiAnalysis()) {
-                    "방금 분석한 병변을 새 병변으로 등록하고 크기 측정을 이어서 진행합니다.\n예: 왼쪽 팔 점, 목 뒤 점, 오른쪽 볼 점"
+                    "방금 분석한 병변을 새 병변으로 등록하고 크기 측정을 이어서\n진행합니다. 병변을 3개월 이상 지속 관찰하는 것을 추천합니다.\n예: 왼쪽 팔 점, 목 뒤 점, 오른쪽 볼 점"
                 } else {
                     "처음 관찰하는 병변이라면 이름을 정해 등록하세요.\n예: 왼쪽 팔 점, 목 뒤 점, 오른쪽 볼 점"
                 }
