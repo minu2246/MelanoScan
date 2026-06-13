@@ -39,3 +39,7 @@ cd MelanoScan
 .\gradlew.bat clean
 .\gradlew.bat assembleDebug
 .\gradlew.bat installDebug
+
+모바일 환경에서 다운 받으려면 아래 링크를 통해 다운 받으세요
+(https://drive.google.com/file/d/1Dogq2QlovYAskkoeOfdv8ijDAhfgXrXz/view)
+
